@@ -124,8 +124,8 @@ outputPath = 'output/'
 readline.set_completer_delims(' \t\n;')
 readline.parse_and_bind("tab: complete")
 readline.set_completer(complete)
-# inputPath = input("Input Path? ")
-inputPath = '/home/vinicius/projects/Sentinel-Scripts/Sentinel 2/inputs/'
+inputPath = input("Input Path? ")
+# inputPath = '/home/vinicius/projects/Sentinel-Scripts/Sentinel 2/inputs/'
 
 start_time = time.time()
 
